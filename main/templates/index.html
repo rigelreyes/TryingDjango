@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trying Django</title>
+</head>
+<body>
+    <h1>Trying Django</h1>
+    {% for treasure in treasures %}
+        <p>{{ treasure.name }}</p>
+        <p>{{ treasure.value }}</p>
+    {% endfor %}
+</body>
+</html>
